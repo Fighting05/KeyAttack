@@ -1,0 +1,6075 @@
+{
+  "exportTime": "2025-08-04T12:06:21.325Z",
+  "brand": "lenovo",
+  "modelDir": "lenovo_models",
+  "testDir": "lenovo_test",
+  "totalFiles": 20,
+  "correctPredictions": 8,
+  "overallAccuracy": 0.4,
+  "summary": {
+    "totalFiles": 20,
+    "processedFiles": 20,
+    "soundModelHitRate": "15",
+    "maskModelHitRate": "45",
+    "advancedAccuracy": "88.98",
+    "soundModelCharAccuracy": "70.34",
+    "pureSeq2seqCharAccuracy": "20.34"
+  },
+  "fileResults": [
+    {
+      "filename": "023023.wav",
+      "expected": "023023",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "023021",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "323923",
+          "confidence": 0.7468689554577493,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "323922",
+          "confidence": 0.7366260069836619,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "023923",
+          "confidence": 0.7114237724062202,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "321923",
+          "confidence": 0.7069045121333882,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "323023",
+          "confidence": 0.7032012441501388,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "329923",
+          "confidence": 0.7026292153221003,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "023922",
+          "confidence": 0.7016669375682644,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "321922",
+          "confidence": 0.6972096567762734,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "323921",
+          "confidence": 0.6939908200310617,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "02302￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥23923",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "0230￥￥",
+          "type": "后缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "0230￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "023￥21",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "023￥￥￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "￥23021",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥23922",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "02￥021",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "0￥3021",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "323￥23",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "3239￥3",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "32392￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "32￥923",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "323￥22",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "0230￥3",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥3923",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "3239￥2",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "32￥922",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥3922",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "021021",
+          "isCorrect": false,
+          "maskTemplate": "02￥021",
+          "templateName": "SndCand1-M5",
+          "overallScore": 0.11133243730351389
+        },
+        {
+          "rank": 2,
+          "sequence": "123021",
+          "isCorrect": false,
+          "maskTemplate": "￥23021",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.07538323755315468
+        },
+        {
+          "rank": 3,
+          "sequence": "323923",
+          "isCorrect": false,
+          "maskTemplate": "3￥3923",
+          "templateName": "SndCand2-M6",
+          "overallScore": 0.07096609427242719
+        },
+        {
+          "rank": 4,
+          "sequence": "323922",
+          "isCorrect": false,
+          "maskTemplate": "3￥3922",
+          "templateName": "SndCand3-M6",
+          "overallScore": 0.05061209251921972
+        },
+        {
+          "rank": 5,
+          "sequence": "023021",
+          "isCorrect": false,
+          "maskTemplate": "023￥21",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.025159641354689642
+        },
+        {
+          "rank": 6,
+          "sequence": "023023",
+          "isCorrect": true,
+          "maskTemplate": "02302￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.008596746277769797
+        },
+        {
+          "rank": 7,
+          "sequence": "023001",
+          "isCorrect": false,
+          "maskTemplate": "0230￥1",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.044101906519941864
+        },
+        {
+          "rank": 8,
+          "sequence": "023521",
+          "isCorrect": false,
+          "maskTemplate": "023￥21",
+          "templateName": "SndCand1-M3",
+          "overallScore": -0.061905890724419085
+        },
+        {
+          "rank": 9,
+          "sequence": "323223",
+          "isCorrect": false,
+          "maskTemplate": "323￥23",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.06298481449956958
+        },
+        {
+          "rank": 10,
+          "sequence": "323222",
+          "isCorrect": false,
+          "maskTemplate": "323￥22",
+          "templateName": "SndCand3-M3",
+          "overallScore": -0.06668735915050272
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.8333333333333334,
+        "pureSeq2seq": 0.3333333333333333,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "050876.wav",
+      "expected": "050876",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "055870",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "002873",
+          "confidence": 0.7504183245386082,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "002870",
+          "confidence": 0.7441745304287011,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "902873",
+          "confidence": 0.7426974331175366,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "902870",
+          "confidence": 0.7365178800513269,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "002876",
+          "confidence": 0.7142514995058306,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "002863",
+          "confidence": 0.7103851042966224,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "902876",
+          "confidence": 0.7069027207051357,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "002860",
+          "confidence": 0.7044744033116748,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "902863",
+          "confidence": 0.7030761059978491,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "00287￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "0028￥3",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "0028￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "05587￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "00￥873",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "0￥2873",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥02873",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "05￥870",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "00￥870",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "0￥2870",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥02870",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "0558￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "0￥5870",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥55870",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "002￥73",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "002￥70",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "055￥70",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "05￥86￥",
+          "type": "后缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "05286￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "0￥￥86￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "050870",
+          "isCorrect": false,
+          "maskTemplate": "05￥870",
+          "templateName": "SndCand1-M2",
+          "overallScore": 0.18717096820388962
+        },
+        {
+          "rank": 2,
+          "sequence": "002800",
+          "isCorrect": false,
+          "maskTemplate": "0028￥0",
+          "templateName": "SndCand3-M2",
+          "overallScore": 0.09183247666354534
+        },
+        {
+          "rank": 3,
+          "sequence": "102870",
+          "isCorrect": false,
+          "maskTemplate": "￥02870",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.07864312428818213
+        },
+        {
+          "rank": 4,
+          "sequence": "102873",
+          "isCorrect": false,
+          "maskTemplate": "￥02873",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.07337314141680916
+        },
+        {
+          "rank": 5,
+          "sequence": "055800",
+          "isCorrect": false,
+          "maskTemplate": "0558￥0",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.06584949242525334
+        },
+        {
+          "rank": 6,
+          "sequence": "000873",
+          "isCorrect": false,
+          "maskTemplate": "00￥873",
+          "templateName": "SndCand2-M3",
+          "overallScore": 0.03857067722033123
+        },
+        {
+          "rank": 7,
+          "sequence": "000870",
+          "isCorrect": false,
+          "maskTemplate": "00￥870",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.035582901645369605
+        },
+        {
+          "rank": 8,
+          "sequence": "052860",
+          "isCorrect": false,
+          "maskTemplate": "05286￥",
+          "templateName": "SndCand1-M7",
+          "overallScore": 0.03252618355482565
+        },
+        {
+          "rank": 9,
+          "sequence": "555870",
+          "isCorrect": false,
+          "maskTemplate": "￥55870",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.036699640737120814
+        },
+        {
+          "rank": 10,
+          "sequence": "005870",
+          "isCorrect": false,
+          "maskTemplate": "0￥5870",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.04209843481457626
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "102030.wav",
+      "expected": "102030",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "151030",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "101030",
+          "confidence": 0.8618320362416217,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "161030",
+          "confidence": 0.6887100711421037,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "105030",
+          "confidence": 0.62895419851315,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "101035",
+          "confidence": 0.6257283867564232,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "101038",
+          "confidence": 0.6170928230595968,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "101830",
+          "confidence": 0.611904494659077,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "501030",
+          "confidence": 0.6084529676049661,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "201030",
+          "confidence": 0.6067197916469923,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "155030",
+          "confidence": 0.5909824090307182,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "1￥1030",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥01030",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "10103￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "10￥030",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "101￥30",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1010￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥103￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "￥61030",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "16103￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "16￥030",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "161￥30",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1610￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥51030",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "15103￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "15￥030",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "151￥30",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1510￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "102030",
+          "isCorrect": true,
+          "maskTemplate": "10￥030",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.30724531826112794
+        },
+        {
+          "rank": 2,
+          "sequence": "101010",
+          "isCorrect": false,
+          "maskTemplate": "1010￥0",
+          "templateName": "SndCand2-M6",
+          "overallScore": 0.2425040015163455
+        },
+        {
+          "rank": 3,
+          "sequence": "101030",
+          "isCorrect": false,
+          "maskTemplate": "1￥1030",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.2416522782534138
+        },
+        {
+          "rank": 4,
+          "sequence": "851030",
+          "isCorrect": false,
+          "maskTemplate": "￥51030",
+          "templateName": "SndCand1-M2",
+          "overallScore": 0.147827038539946
+        },
+        {
+          "rank": 5,
+          "sequence": "861030",
+          "isCorrect": false,
+          "maskTemplate": "￥61030",
+          "templateName": "SndCand3-M2",
+          "overallScore": 0.13592987899061307
+        },
+        {
+          "rank": 6,
+          "sequence": "152030",
+          "isCorrect": false,
+          "maskTemplate": "15￥030",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.1244426020260737
+        },
+        {
+          "rank": 7,
+          "sequence": "151000",
+          "isCorrect": false,
+          "maskTemplate": "1510￥0",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.08380210764048392
+        },
+        {
+          "rank": 8,
+          "sequence": "161000",
+          "isCorrect": false,
+          "maskTemplate": "1610￥0",
+          "templateName": "SndCand3-M6",
+          "overallScore": 0.022320809539755
+        },
+        {
+          "rank": 9,
+          "sequence": "161030",
+          "isCorrect": false,
+          "maskTemplate": "16￥030",
+          "templateName": "SndCand3-M4",
+          "overallScore": 0.021195373891976396
+        },
+        {
+          "rank": 10,
+          "sequence": "162030",
+          "isCorrect": false,
+          "maskTemplate": "16￥030",
+          "templateName": "SndCand3-M4",
+          "overallScore": -0.0045912555850078605
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "112233.wav",
+      "expected": "112233",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "112233",
+          "confidence": 1,
+          "isCorrect": true,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "112836",
+          "confidence": 0.8474632335043468,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "112236",
+          "confidence": 0.8056670693874965,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "112835",
+          "confidence": 0.7990862993606589,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "112833",
+          "confidence": 0.7676157492688416,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "112235",
+          "confidence": 0.7596760443888917,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "112536",
+          "confidence": 0.7419802687281774,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "112535",
+          "confidence": 0.6996247668289971,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "112816",
+          "confidence": 0.6846011382314038,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "112533",
+          "confidence": 0.672071326997049,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "112￥3￥",
+          "type": "后缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "11223￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "112￥33",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥12￥3￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "11283￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "112￥36",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥12233",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1122￥3",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥233",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥2233",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥12236",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1122￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥236",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥2236",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥12836",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1128￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥836",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥2836",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "112233",
+          "isCorrect": true,
+          "maskTemplate": "11223￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.3351269815882095
+        },
+        {
+          "rank": 2,
+          "sequence": "112236",
+          "isCorrect": false,
+          "maskTemplate": "￥12236",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.1930164117287444
+        },
+        {
+          "rank": 3,
+          "sequence": "112836",
+          "isCorrect": false,
+          "maskTemplate": "￥12836",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.051234013940182094
+        },
+        {
+          "rank": 4,
+          "sequence": "112838",
+          "isCorrect": false,
+          "maskTemplate": "11283￥",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.07594875654858638
+        },
+        {
+          "rank": 5,
+          "sequence": "115236",
+          "isCorrect": false,
+          "maskTemplate": "11￥236",
+          "templateName": "SndCand3-M5",
+          "overallScore": -0.0920458356056796
+        },
+        {
+          "rank": 6,
+          "sequence": "142836",
+          "isCorrect": false,
+          "maskTemplate": "1￥2836",
+          "templateName": "SndCand2-M7",
+          "overallScore": -0.11794349175721752
+        },
+        {
+          "rank": 7,
+          "sequence": "112830",
+          "isCorrect": false,
+          "maskTemplate": "11283￥",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.15714437316916266
+        },
+        {
+          "rank": 8,
+          "sequence": "142236",
+          "isCorrect": false,
+          "maskTemplate": "1￥2236",
+          "templateName": "SndCand3-M6",
+          "overallScore": -0.15865273401020846
+        },
+        {
+          "rank": 9,
+          "sequence": "112216",
+          "isCorrect": false,
+          "maskTemplate": "1122￥6",
+          "templateName": "SndCand3-M4",
+          "overallScore": -0.1616872095948462
+        },
+        {
+          "rank": 10,
+          "sequence": "112536",
+          "isCorrect": false,
+          "maskTemplate": "112￥36",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.17351143217813209
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 1,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "114514.wav",
+      "expected": "114514",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "114514",
+          "confidence": 1,
+          "isCorrect": true,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "114516",
+          "confidence": 0.732645547091437,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "114524",
+          "confidence": 0.7230131962661439,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "114526",
+          "confidence": 0.7214644335432676,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "144514",
+          "confidence": 0.687261909780964,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "144516",
+          "confidence": 0.6857897296987492,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "144524",
+          "confidence": 0.6767734089211701,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "144526",
+          "confidence": 0.6753236962008712,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "116514",
+          "confidence": 0.6580738605894578,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "116516",
+          "confidence": 0.6566642040721996,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "1145￥4",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥5￥￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "11￥524",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "11452￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥514",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1145￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11451￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥4524",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥14524",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥516",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "114￥24",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥4514",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥14514",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "114￥14",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥4516",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥14516",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "114￥16",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "114514",
+          "isCorrect": true,
+          "maskTemplate": "1145￥4",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.10489545793492669
+        },
+        {
+          "rank": 2,
+          "sequence": "114520",
+          "isCorrect": false,
+          "maskTemplate": "11452￥",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.09331126932699052
+        },
+        {
+          "rank": 3,
+          "sequence": "124524",
+          "isCorrect": false,
+          "maskTemplate": "1￥4524",
+          "templateName": "SndCand3-M4",
+          "overallScore": 0.0921723576975696
+        },
+        {
+          "rank": 4,
+          "sequence": "124514",
+          "isCorrect": false,
+          "maskTemplate": "1￥4514",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.05856421925143339
+        },
+        {
+          "rank": 5,
+          "sequence": "124516",
+          "isCorrect": false,
+          "maskTemplate": "1￥4516",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.019918613607691836
+        },
+        {
+          "rank": 6,
+          "sequence": "114524",
+          "isCorrect": false,
+          "maskTemplate": "1￥4524",
+          "templateName": "SndCand3-M4",
+          "overallScore": -0.007347575992079379
+        },
+        {
+          "rank": 7,
+          "sequence": "110524",
+          "isCorrect": false,
+          "maskTemplate": "11￥524",
+          "templateName": "SndCand3-M2",
+          "overallScore": -0.007527611029069136
+        },
+        {
+          "rank": 8,
+          "sequence": "110514",
+          "isCorrect": false,
+          "maskTemplate": "11￥514",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.022547315586224845
+        },
+        {
+          "rank": 9,
+          "sequence": "114114",
+          "isCorrect": false,
+          "maskTemplate": "114￥14",
+          "templateName": "SndCand1-M6",
+          "overallScore": -0.023624484847247287
+        },
+        {
+          "rank": 10,
+          "sequence": "114516",
+          "isCorrect": false,
+          "maskTemplate": "1￥4516",
+          "templateName": "SndCand2-M4",
+          "overallScore": -0.02391283717786725
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 1,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "123789.wav",
+      "expected": "123789",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "113689",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "113688",
+          "confidence": 0.7297090411150183,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "113681",
+          "confidence": 0.721987284644601,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "133688",
+          "confidence": 0.6903187101829622,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "133681",
+          "confidence": 0.6830137808663949,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "133689",
+          "confidence": 0.6699353607077897,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "113668",
+          "confidence": 0.6635628296743514,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "113661",
+          "confidence": 0.6565410301832325,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "113788",
+          "confidence": 0.6489083075269332,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "113669",
+          "confidence": 0.6439695130562898,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "11368￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "113￥88",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥3688",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1136￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥3￥￥￥",
+          "type": "后缀掩码(4位)",
+          "maskCount": 4
+        },
+        {
+          "template": "1￥3￥8￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "113￥81",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥3681",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "113￥89",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1136￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥3689",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥688",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥13688",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1136￥9",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥681",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥13681",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥689",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥13689",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "123689",
+          "isCorrect": false,
+          "maskTemplate": "1￥3689",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.2879925744262617
+        },
+        {
+          "rank": 2,
+          "sequence": "123688",
+          "isCorrect": false,
+          "maskTemplate": "1￥3688",
+          "templateName": "SndCand2-M3",
+          "overallScore": 0.214154354147698
+        },
+        {
+          "rank": 3,
+          "sequence": "123789",
+          "isCorrect": true,
+          "maskTemplate": "1￥3￥8￥",
+          "templateName": "SndCand1-M7",
+          "overallScore": 0.1537110529460936
+        },
+        {
+          "rank": 4,
+          "sequence": "113688",
+          "isCorrect": false,
+          "maskTemplate": "11368￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.11182800492386115
+        },
+        {
+          "rank": 5,
+          "sequence": "123456",
+          "isCorrect": false,
+          "maskTemplate": "1￥3￥￥￥",
+          "templateName": "SndCand1-M8",
+          "overallScore": 0.07280537800146944
+        },
+        {
+          "rank": 6,
+          "sequence": "213689",
+          "isCorrect": false,
+          "maskTemplate": "￥13689",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.05940182382079208
+        },
+        {
+          "rank": 7,
+          "sequence": "123681",
+          "isCorrect": false,
+          "maskTemplate": "1￥3681",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.05468212253033774
+        },
+        {
+          "rank": 8,
+          "sequence": "110681",
+          "isCorrect": false,
+          "maskTemplate": "11￥681",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.038750735528254046
+        },
+        {
+          "rank": 9,
+          "sequence": "111688",
+          "isCorrect": false,
+          "maskTemplate": "11￥688",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.032268514631098484
+        },
+        {
+          "rank": 10,
+          "sequence": "110689",
+          "isCorrect": false,
+          "maskTemplate": "11￥689",
+          "templateName": "SndCand1-M5",
+          "overallScore": 0.016031050355618304
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.5,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "147159.wav",
+      "expected": "147159",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "146118",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "137198",
+          "confidence": 0.7116900757022501,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "147198",
+          "confidence": 0.7012681693454307,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "136198",
+          "confidence": 0.6948299204502085,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "146198",
+          "confidence": 0.6846549122379569,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "137118",
+          "confidence": 0.6705833379219658,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "147118",
+          "confidence": 0.6607633938327215,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "136118",
+          "confidence": 0.6546970138424282,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "137398",
+          "confidence": 0.646455542398582,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "147398",
+          "confidence": 0.6369889229293181,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "1371￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "137￥98",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1471￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "14￥118",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "13￥198",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥7198",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥37198",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥6118",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "13719￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "147￥98",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "146￥18",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "14￥198",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1461￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥47198",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥46118",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "14719￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "14611￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "137￥18",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "13￥￥￥8",
+          "type": "混合掩码(3位)",
+          "maskCount": 3
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "116118",
+          "isCorrect": false,
+          "maskTemplate": "1￥6118",
+          "templateName": "SndCand1-M2",
+          "overallScore": 0.19593521209892908
+        },
+        {
+          "rank": 2,
+          "sequence": "147298",
+          "isCorrect": false,
+          "maskTemplate": "147￥98",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.11901789960697147
+        },
+        {
+          "rank": 3,
+          "sequence": "147158",
+          "isCorrect": false,
+          "maskTemplate": "1471￥8",
+          "templateName": "SndCand3-M1",
+          "overallScore": 0.0872138012856994
+        },
+        {
+          "rank": 4,
+          "sequence": "147148",
+          "isCorrect": false,
+          "maskTemplate": "1471￥8",
+          "templateName": "SndCand3-M1",
+          "overallScore": 0.04397532329997185
+        },
+        {
+          "rank": 5,
+          "sequence": "137118",
+          "isCorrect": false,
+          "maskTemplate": "137￥18",
+          "templateName": "SndCand1-M7",
+          "overallScore": 0.03419096302169797
+        },
+        {
+          "rank": 6,
+          "sequence": "137198",
+          "isCorrect": false,
+          "maskTemplate": "￥37198",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.0033817743198043676
+        },
+        {
+          "rank": 7,
+          "sequence": "146116",
+          "isCorrect": false,
+          "maskTemplate": "14611￥",
+          "templateName": "SndCand1-M6",
+          "overallScore": -0.010203020809148394
+        },
+        {
+          "rank": 8,
+          "sequence": "147118",
+          "isCorrect": false,
+          "maskTemplate": "14￥118",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.010768975876339265
+        },
+        {
+          "rank": 9,
+          "sequence": "148118",
+          "isCorrect": false,
+          "maskTemplate": "14￥118",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.011723657368762522
+        },
+        {
+          "rank": 10,
+          "sequence": "137138",
+          "isCorrect": false,
+          "maskTemplate": "1371￥8",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.016654944470268156
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.5,
+        "pureSeq2seq": 0.3333333333333333,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "147258.wav",
+      "expected": "147258",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "148158",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "148128",
+          "confidence": 0.6715924531773542,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "148159",
+          "confidence": 0.6606882211931093,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "147158",
+          "confidence": 0.6503586693967134,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "146158",
+          "confidence": 0.6183909238961766,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "148129",
+          "confidence": 0.6109210247375669,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "147128",
+          "confidence": 0.6013695598164305,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "147159",
+          "confidence": 0.5916054935922233,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "146128",
+          "confidence": 0.5718098261731249,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "146159",
+          "confidence": 0.562525703092284,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "14￥158",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "14815￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥48158",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "148￥58",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8158",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1481￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "14￥159",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥4￥15￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "14￥128",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥48159",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "148￥59",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8159",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1481￥9",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "14812￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥48128",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "148￥28",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8128",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "147158",
+          "isCorrect": false,
+          "maskTemplate": "14￥158",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.28889014351907577
+        },
+        {
+          "rank": 2,
+          "sequence": "147159",
+          "isCorrect": false,
+          "maskTemplate": "14￥159",
+          "templateName": "SndCand3-M2",
+          "overallScore": 0.28550554616480095
+        },
+        {
+          "rank": 3,
+          "sequence": "148158",
+          "isCorrect": false,
+          "maskTemplate": "14815￥",
+          "templateName": "SndCand1-M2",
+          "overallScore": 0.15726968524873214
+        },
+        {
+          "rank": 4,
+          "sequence": "148168",
+          "isCorrect": false,
+          "maskTemplate": "1481￥8",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.1006791076337615
+        },
+        {
+          "rank": 5,
+          "sequence": "148258",
+          "isCorrect": false,
+          "maskTemplate": "148￥58",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.07293425569291423
+        },
+        {
+          "rank": 6,
+          "sequence": "148128",
+          "isCorrect": false,
+          "maskTemplate": "14812￥",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.03800142382404897
+        },
+        {
+          "rank": 7,
+          "sequence": "198158",
+          "isCorrect": false,
+          "maskTemplate": "1￥8158",
+          "templateName": "SndCand1-M5",
+          "overallScore": 0.0378163209664078
+        },
+        {
+          "rank": 8,
+          "sequence": "198159",
+          "isCorrect": false,
+          "maskTemplate": "1￥8159",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.019897565006880155
+        },
+        {
+          "rank": 9,
+          "sequence": "148169",
+          "isCorrect": false,
+          "maskTemplate": "1481￥9",
+          "templateName": "SndCand3-M7",
+          "overallScore": -0.027903345582234406
+        },
+        {
+          "rank": 10,
+          "sequence": "168158",
+          "isCorrect": false,
+          "maskTemplate": "1￥8158",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.030162012371817665
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.3333333333333333,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "147369.wav",
+      "expected": "147369",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "117168",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "117368",
+          "confidence": 0.6320394308330217,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "137368",
+          "confidence": 0.6320394308330217,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "137168",
+          "confidence": 0.6299252884951867,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "217368",
+          "confidence": 0.6294843569545494,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "237368",
+          "confidence": 0.6294843569545494,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "217168",
+          "confidence": 0.627378761219346,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "237168",
+          "confidence": 0.627378761219346,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "117367",
+          "confidence": 0.6106306842880093,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "137367",
+          "confidence": 0.6106306842880093,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "1￥7368",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥7168",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥17368",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥37368",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥17168",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1173￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1373￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1171￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11736￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "13736￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11716￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "117￥68",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "137￥68",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥368",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "13￥368",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥168",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "2￥7￥￥7",
+          "type": "混合掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "2￥73￥7",
+          "type": "混合掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "2673￥7",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "167168",
+          "isCorrect": false,
+          "maskTemplate": "1￥7168",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.1532670556344057
+        },
+        {
+          "rank": 2,
+          "sequence": "117168",
+          "isCorrect": false,
+          "maskTemplate": "11716￥",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.10719819048233374
+        },
+        {
+          "rank": 3,
+          "sequence": "112368",
+          "isCorrect": false,
+          "maskTemplate": "11￥368",
+          "templateName": "SndCand2-M6",
+          "overallScore": 0.04801553050947177
+        },
+        {
+          "rank": 4,
+          "sequence": "147368",
+          "isCorrect": false,
+          "maskTemplate": "1￥7368",
+          "templateName": "SndCand2-M1",
+          "overallScore": 0.045303146720933066
+        },
+        {
+          "rank": 5,
+          "sequence": "137368",
+          "isCorrect": false,
+          "maskTemplate": "￥37368",
+          "templateName": "SndCand3-M2",
+          "overallScore": 0.025307714190689515
+        },
+        {
+          "rank": 6,
+          "sequence": "117118",
+          "isCorrect": false,
+          "maskTemplate": "1171￥8",
+          "templateName": "SndCand1-M3",
+          "overallScore": -0.008334532610492218
+        },
+        {
+          "rank": 7,
+          "sequence": "137168",
+          "isCorrect": false,
+          "maskTemplate": "137￥68",
+          "templateName": "SndCand3-M5",
+          "overallScore": -0.027597714027234238
+        },
+        {
+          "rank": 8,
+          "sequence": "197368",
+          "isCorrect": false,
+          "maskTemplate": "1￥7368",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.03430917290867885
+        },
+        {
+          "rank": 9,
+          "sequence": "117369",
+          "isCorrect": false,
+          "maskTemplate": "11736￥",
+          "templateName": "SndCand2-M4",
+          "overallScore": -0.08882174398751023
+        },
+        {
+          "rank": 10,
+          "sequence": "267367",
+          "isCorrect": false,
+          "maskTemplate": "2673￥7",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.09696270207840454
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.5,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "147852.wav",
+      "expected": "147852",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "147851",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "147811",
+          "confidence": 0.714016223068803,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "117851",
+          "confidence": 0.6937217419551237,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "146851",
+          "confidence": 0.6914158933397777,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "247851",
+          "confidence": 0.6533666599770291,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "117811",
+          "confidence": 0.650022022723752,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "146811",
+          "confidence": 0.6478614267810361,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "116851",
+          "confidence": 0.6294472632574405,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "247811",
+          "confidence": 0.6122090345641842,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "148851",
+          "confidence": 0.610339854781996,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "￥47851",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "14￥851",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥4￥851",
+          "type": "前缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "1￥7851",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1478￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "14785￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "147￥51",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥￥851",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "￥47811",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥17851",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "14￥811",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥851",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥7811",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1178￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "14781￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11785￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "147￥11",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "117￥51",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "147852",
+          "isCorrect": true,
+          "maskTemplate": "14785￥",
+          "templateName": "SndCand1-M5",
+          "overallScore": 0.3218463892136408
+        },
+        {
+          "rank": 2,
+          "sequence": "197851",
+          "isCorrect": false,
+          "maskTemplate": "1￥7851",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.16865015244748147
+        },
+        {
+          "rank": 3,
+          "sequence": "147851",
+          "isCorrect": false,
+          "maskTemplate": "￥47851",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.16121220073030557
+        },
+        {
+          "rank": 4,
+          "sequence": "197811",
+          "isCorrect": false,
+          "maskTemplate": "1￥7811",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.13060651935408588
+        },
+        {
+          "rank": 5,
+          "sequence": "147251",
+          "isCorrect": false,
+          "maskTemplate": "147￥51",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.0385157704152425
+        },
+        {
+          "rank": 6,
+          "sequence": "117811",
+          "isCorrect": false,
+          "maskTemplate": "1178￥1",
+          "templateName": "SndCand3-M5",
+          "overallScore": -0.01880413665845608
+        },
+        {
+          "rank": 7,
+          "sequence": "147812",
+          "isCorrect": false,
+          "maskTemplate": "14781￥",
+          "templateName": "SndCand2-M6",
+          "overallScore": -0.03848384813414435
+        },
+        {
+          "rank": 8,
+          "sequence": "147811",
+          "isCorrect": false,
+          "maskTemplate": "￥47811",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.0473533776047082
+        },
+        {
+          "rank": 9,
+          "sequence": "147841",
+          "isCorrect": false,
+          "maskTemplate": "1478￥1",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.047677855533929586
+        },
+        {
+          "rank": 10,
+          "sequence": "147311",
+          "isCorrect": false,
+          "maskTemplate": "147￥11",
+          "templateName": "SndCand2-M7",
+          "overallScore": -0.04979485898934495
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.8333333333333334,
+        "pureSeq2seq": 0.3333333333333333,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "156156.wav",
+      "expected": "156156",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "116116",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "129176",
+          "confidence": 0.7311434452028927,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "126176",
+          "confidence": 0.7084270288333292,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "129177",
+          "confidence": 0.7078382877853173,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "119176",
+          "confidence": 0.6984239174849262,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "159176",
+          "confidence": 0.6922358890879404,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "126177",
+          "confidence": 0.685845955947906,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "116176",
+          "confidence": 0.676724087422651,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "119177",
+          "confidence": 0.6761616932278668,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "156176",
+          "confidence": 0.6707283192866234,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "1261￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "12617￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥61￥￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "1161￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥6116",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥6176",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥26176",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "12￥176",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1291￥6",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "11611￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "126￥76",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "12917￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥16116",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "11￥116",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥9176",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "116￥16",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥29176",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥615￥",
+          "type": "后缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "129￥76",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥6157",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "116116",
+          "isCorrect": false,
+          "maskTemplate": "￥16116",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.16860365752891654
+        },
+        {
+          "rank": 2,
+          "sequence": "126176",
+          "isCorrect": false,
+          "maskTemplate": "￥26176",
+          "templateName": "SndCand3-M4",
+          "overallScore": 0.11437960070326823
+        },
+        {
+          "rank": 3,
+          "sequence": "126126",
+          "isCorrect": false,
+          "maskTemplate": "1261￥6",
+          "templateName": "SndCand3-M1",
+          "overallScore": 0.06847718848186155
+        },
+        {
+          "rank": 4,
+          "sequence": "199176",
+          "isCorrect": false,
+          "maskTemplate": "1￥9176",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.03412369389653441
+        },
+        {
+          "rank": 5,
+          "sequence": "136157",
+          "isCorrect": false,
+          "maskTemplate": "1￥6157",
+          "templateName": "SndCand1-M7",
+          "overallScore": 0.0005045249848000533
+        },
+        {
+          "rank": 6,
+          "sequence": "116126",
+          "isCorrect": false,
+          "maskTemplate": "1161￥6",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.04658104577305872
+        },
+        {
+          "rank": 7,
+          "sequence": "110116",
+          "isCorrect": false,
+          "maskTemplate": "11￥116",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.08446443746969164
+        },
+        {
+          "rank": 8,
+          "sequence": "129126",
+          "isCorrect": false,
+          "maskTemplate": "1291￥6",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.08939771654302646
+        },
+        {
+          "rank": 9,
+          "sequence": "126157",
+          "isCorrect": false,
+          "maskTemplate": "1￥6157",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.10154113611091295
+        },
+        {
+          "rank": 10,
+          "sequence": "123176",
+          "isCorrect": false,
+          "maskTemplate": "12￥176",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.1033782144343405
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.5,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "198310.wav",
+      "expected": "198310",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "198118",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "108110",
+          "confidence": 0.7421257529404448,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "108410",
+          "confidence": 0.7236010682178649,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "308110",
+          "confidence": 0.7214749737665312,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "108118",
+          "confidence": 0.7181137337062315,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "308410",
+          "confidence": 0.7034657666054785,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "108112",
+          "confidence": 0.7014423719863763,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "108418",
+          "confidence": 0.7001884286495692,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "308118",
+          "confidence": 0.698131125532665,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "109110",
+          "confidence": 0.696710228896662,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "￥08110",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥98118",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1081￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "19811￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "10811￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8110",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "10￥110",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "1981￥8",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8118",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "19￥118",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "108￥10",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥08410",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥9812￥",
+          "type": "前缀掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "198￥18",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "1084￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "10841￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "1￥8410",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "10￥410",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "29812￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥812￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "198118",
+          "isCorrect": false,
+          "maskTemplate": "￥98118",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.23096365540757283
+        },
+        {
+          "rank": 2,
+          "sequence": "198410",
+          "isCorrect": false,
+          "maskTemplate": "1￥8410",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.13074658431884334
+        },
+        {
+          "rank": 3,
+          "sequence": "100110",
+          "isCorrect": false,
+          "maskTemplate": "10￥110",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.0973897072080953
+        },
+        {
+          "rank": 4,
+          "sequence": "198110",
+          "isCorrect": false,
+          "maskTemplate": "1￥8110",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.08719547332480987
+        },
+        {
+          "rank": 5,
+          "sequence": "199118",
+          "isCorrect": false,
+          "maskTemplate": "19￥118",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.032819303577258596
+        },
+        {
+          "rank": 6,
+          "sequence": "198112",
+          "isCorrect": false,
+          "maskTemplate": "19811￥",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.03805936267504467
+        },
+        {
+          "rank": 7,
+          "sequence": "118118",
+          "isCorrect": false,
+          "maskTemplate": "1￥8118",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.04215727432376558
+        },
+        {
+          "rank": 8,
+          "sequence": "108100",
+          "isCorrect": false,
+          "maskTemplate": "1081￥0",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.046434606583474175
+        },
+        {
+          "rank": 9,
+          "sequence": "108110",
+          "isCorrect": false,
+          "maskTemplate": "￥08110",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.05846493146301479
+        },
+        {
+          "rank": 10,
+          "sequence": "298128",
+          "isCorrect": false,
+          "maskTemplate": "29812￥",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.08088803508254531
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "321123.wav",
+      "expected": "321123",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "321125",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "321425",
+          "confidence": 0.7797265888361818,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "321475",
+          "confidence": 0.7259172274827319,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "361425",
+          "confidence": 0.7257694557869928,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "321175",
+          "confidence": 0.7131418417419648,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "361125",
+          "confidence": 0.7129966706738774,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "321420",
+          "confidence": 0.7073103736126586,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "321120",
+          "confidence": 0.6948624490845653,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "371425",
+          "confidence": 0.6884873345844525,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "371125",
+          "confidence": 0.6763706759022363,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "3211￥5",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "3214￥5",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "321￥75",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥1475",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥11￥5",
+          "type": "混合掩码(2位)",
+          "maskCount": 2
+        },
+        {
+          "template": "3￥1￥￥5",
+          "type": "混合掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "3￥1125",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "321￥25",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥1425",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "32￥475",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21475",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "32147￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "32￥125",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "3￥￥￥￥5",
+          "type": "混合掩码(4位)",
+          "maskCount": 4
+        },
+        {
+          "template": "32￥425",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21125",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21425",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "32112￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "32142￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "321123",
+          "isCorrect": true,
+          "maskTemplate": "32112￥",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.2924018620921076
+        },
+        {
+          "rank": 2,
+          "sequence": "521125",
+          "isCorrect": false,
+          "maskTemplate": "￥21125",
+          "templateName": "SndCand1-M5",
+          "overallScore": 0.1958774976756389
+        },
+        {
+          "rank": 3,
+          "sequence": "321125",
+          "isCorrect": false,
+          "maskTemplate": "3211￥5",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.16065054864108996
+        },
+        {
+          "rank": 4,
+          "sequence": "321425",
+          "isCorrect": false,
+          "maskTemplate": "3￥1425",
+          "templateName": "SndCand2-M3",
+          "overallScore": 0.09349740118645623
+        },
+        {
+          "rank": 5,
+          "sequence": "121475",
+          "isCorrect": false,
+          "maskTemplate": "￥21475",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.09055067059717464
+        },
+        {
+          "rank": 6,
+          "sequence": "321477",
+          "isCorrect": false,
+          "maskTemplate": "32147￥",
+          "templateName": "SndCand3-M6",
+          "overallScore": 0.03571679920743642
+        },
+        {
+          "rank": 7,
+          "sequence": "521425",
+          "isCorrect": false,
+          "maskTemplate": "￥21425",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.003011180143296807
+        },
+        {
+          "rank": 8,
+          "sequence": "321325",
+          "isCorrect": false,
+          "maskTemplate": "321￥25",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.0009187763085286571
+        },
+        {
+          "rank": 9,
+          "sequence": "121425",
+          "isCorrect": false,
+          "maskTemplate": "￥21425",
+          "templateName": "SndCand2-M5",
+          "overallScore": -0.014642586655833859
+        },
+        {
+          "rank": 10,
+          "sequence": "325125",
+          "isCorrect": false,
+          "maskTemplate": "32￥125",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.024363659505836126
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.8333333333333334,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "405060.wav",
+      "expected": "405060",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "405602",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "444662",
+          "confidence": 0.7961082173454905,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "445662",
+          "confidence": 0.7939306502785987,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "744662",
+          "confidence": 0.7774325753478821,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "745662",
+          "confidence": 0.7753060911138024,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "444602",
+          "confidence": 0.7659627646331968,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "445602",
+          "confidence": 0.7638676533727049,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "744602",
+          "confidence": 0.7479942949401123,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "745602",
+          "confidence": 0.7459483322086691,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "464662",
+          "confidence": 0.7382233479944569,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "4￥4662",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "44￥662",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "44566￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "445￥62",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "4￥5602",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "4056￥2",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "4456￥2",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥45662",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "4￥5662",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "44466￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "444￥62",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "40￥602",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "4446￥2",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥44662",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "40560￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "405￥02",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥05602",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "4￥￥66￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "445666",
+          "isCorrect": false,
+          "maskTemplate": "44566￥",
+          "templateName": "SndCand3-M3",
+          "overallScore": 0.14042909767540762
+        },
+        {
+          "rank": 2,
+          "sequence": "444666",
+          "isCorrect": false,
+          "maskTemplate": "44466￥",
+          "templateName": "SndCand2-M4",
+          "overallScore": 0.11453143174001043
+        },
+        {
+          "rank": 3,
+          "sequence": "445562",
+          "isCorrect": false,
+          "maskTemplate": "445￥62",
+          "templateName": "SndCand3-M4",
+          "overallScore": 0.11350343058042969
+        },
+        {
+          "rank": 4,
+          "sequence": "445662",
+          "isCorrect": false,
+          "maskTemplate": "4￥5662",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.08920468676141538
+        },
+        {
+          "rank": 5,
+          "sequence": "405602",
+          "isCorrect": false,
+          "maskTemplate": "4056￥2",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.045351258152256796
+        },
+        {
+          "rank": 6,
+          "sequence": "445602",
+          "isCorrect": false,
+          "maskTemplate": "4￥5602",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.05846243278903723
+        },
+        {
+          "rank": 7,
+          "sequence": "405600",
+          "isCorrect": false,
+          "maskTemplate": "40560￥",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.06632242686637149
+        },
+        {
+          "rank": 8,
+          "sequence": "425602",
+          "isCorrect": false,
+          "maskTemplate": "4￥5602",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.09099632769553566
+        },
+        {
+          "rank": 9,
+          "sequence": "444562",
+          "isCorrect": false,
+          "maskTemplate": "444￥62",
+          "templateName": "SndCand2-M5",
+          "overallScore": -0.09376126031773097
+        },
+        {
+          "rank": 10,
+          "sequence": "465602",
+          "isCorrect": false,
+          "maskTemplate": "4￥5602",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.09758592768405391
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.5,
+        "pureSeq2seq": 0,
+        "advanced": 0.6666666666666666
+      }
+    },
+    {
+      "filename": "521000.wav",
+      "expected": "521000",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "521000",
+          "confidence": 1,
+          "isCorrect": true,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "521500",
+          "confidence": 0.6877865122700058,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "521590",
+          "confidence": 0.6844102833453758,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "521090",
+          "confidence": 0.6796598359922336,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "521509",
+          "confidence": 0.6410048746679214,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "521599",
+          "confidence": 0.6378582889758876,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "521009",
+          "confidence": 0.6365557014390603,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "521099",
+          "confidence": 0.633430955994077,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "561500",
+          "confidence": 0.6299470824403677,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "561590",
+          "confidence": 0.6268547776004518,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "521￥00",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "52100￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "52￥000",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "52150￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "5￥1000",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "52￥500",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21000",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "5￥1500",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21500",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "52￥￥0￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "5210￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "5215￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "521￥90",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "521￥09",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "52159￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "52￥590",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "5￥1590",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥21590",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "521000",
+          "isCorrect": true,
+          "maskTemplate": "5210￥0",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.2595913788905383
+        },
+        {
+          "rank": 2,
+          "sequence": "521520",
+          "isCorrect": false,
+          "maskTemplate": "5215￥0",
+          "templateName": "SndCand2-M6",
+          "overallScore": 0.19152942316186147
+        },
+        {
+          "rank": 3,
+          "sequence": "521500",
+          "isCorrect": false,
+          "maskTemplate": "￥21500",
+          "templateName": "SndCand2-M5",
+          "overallScore": 0.11775262727227845
+        },
+        {
+          "rank": 4,
+          "sequence": "520000",
+          "isCorrect": false,
+          "maskTemplate": "52￥000",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.08394459500038669
+        },
+        {
+          "rank": 5,
+          "sequence": "520500",
+          "isCorrect": false,
+          "maskTemplate": "52￥500",
+          "templateName": "SndCand2-M3",
+          "overallScore": 0.06330266549139724
+        },
+        {
+          "rank": 6,
+          "sequence": "521590",
+          "isCorrect": false,
+          "maskTemplate": "5￥1590",
+          "templateName": "SndCand3-M5",
+          "overallScore": 0.05457394088146848
+        },
+        {
+          "rank": 7,
+          "sequence": "521501",
+          "isCorrect": false,
+          "maskTemplate": "52150￥",
+          "templateName": "SndCand2-M2",
+          "overallScore": 0.03213045851953471
+        },
+        {
+          "rank": 8,
+          "sequence": "520590",
+          "isCorrect": false,
+          "maskTemplate": "52￥590",
+          "templateName": "SndCand3-M4",
+          "overallScore": 0.022008094722859695
+        },
+        {
+          "rank": 9,
+          "sequence": "121000",
+          "isCorrect": false,
+          "maskTemplate": "￥21000",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.014130466685057394
+        },
+        {
+          "rank": 10,
+          "sequence": "521009",
+          "isCorrect": false,
+          "maskTemplate": "521￥09",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.039939741734192055
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 1,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 1
+      }
+    },
+    {
+      "filename": "666666.wav",
+      "expected": "666666",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "666461",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "660861",
+          "confidence": 0.7362614042713277,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "670861",
+          "confidence": 0.7294043663182249,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "600861",
+          "confidence": 0.7282520250249889,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "660461",
+          "confidence": 0.7062867551581837,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "660864",
+          "confidence": 0.7035317219675006,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "760861",
+          "confidence": 0.7004683662738358,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "670461",
+          "confidence": 0.6997088806997411,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "600461",
+          "confidence": 0.6986034534858293,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "670864",
+          "confidence": 0.6969795060143673,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "66646￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "66￥461",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥66461",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6￥6461",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "66￥464",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "660￥61",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "66086￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "666￥61",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "670￥61",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "67086￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6664￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "66￥861",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥60861",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥￥464",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "6￥0861",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "67￥861",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥70861",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6608￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "6708￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "666464",
+          "isCorrect": false,
+          "maskTemplate": "66646￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.08735387720172293
+        },
+        {
+          "rank": 2,
+          "sequence": "666466",
+          "isCorrect": false,
+          "maskTemplate": "66646￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.01411578805495604
+        },
+        {
+          "rank": 3,
+          "sequence": "666465",
+          "isCorrect": false,
+          "maskTemplate": "66646￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.07713728521124151
+        },
+        {
+          "rank": 4,
+          "sequence": "670860",
+          "isCorrect": false,
+          "maskTemplate": "67086￥",
+          "templateName": "SndCand3-M2",
+          "overallScore": -0.07939694444843283
+        },
+        {
+          "rank": 5,
+          "sequence": "660866",
+          "isCorrect": false,
+          "maskTemplate": "66086￥",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.09705195422889647
+        },
+        {
+          "rank": 6,
+          "sequence": "660868",
+          "isCorrect": false,
+          "maskTemplate": "66086￥",
+          "templateName": "SndCand2-M2",
+          "overallScore": -0.1007810760906134
+        },
+        {
+          "rank": 7,
+          "sequence": "664464",
+          "isCorrect": false,
+          "maskTemplate": "66￥464",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.10505208190324353
+        },
+        {
+          "rank": 8,
+          "sequence": "666461",
+          "isCorrect": false,
+          "maskTemplate": "￥66461",
+          "templateName": "SndCand1-M3",
+          "overallScore": -0.11172222220913244
+        },
+        {
+          "rank": 9,
+          "sequence": "666861",
+          "isCorrect": false,
+          "maskTemplate": "66￥861",
+          "templateName": "SndCand2-M3",
+          "overallScore": -0.11559269097542146
+        },
+        {
+          "rank": 10,
+          "sequence": "670868",
+          "isCorrect": false,
+          "maskTemplate": "67086￥",
+          "templateName": "SndCand3-M2",
+          "overallScore": -0.1208842206830389
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0.16666666666666666,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "731731.wav",
+      "expected": "731731",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "631831",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "931835",
+          "confidence": 0.6348839550108923,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "631835",
+          "confidence": 0.6248705515402474,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "931832",
+          "confidence": 0.6172248241262513,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "931831",
+          "confidence": 0.612316870911861,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "911835",
+          "confidence": 0.6112936542690769,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "931735",
+          "confidence": 0.611019868368427,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "631832",
+          "confidence": 0.6074899408498768,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "611835",
+          "confidence": 0.601652317531978,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "631735",
+          "confidence": 0.601382849788475,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "63183￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6318￥5",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "931￥35",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥31835",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6￥1835",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "93183￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "631￥￥￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "9318￥5",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "631￥31",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "9￥1835",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "63￥835",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "6318￥1",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥31831",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "6￥1831",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "93￥835",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "631￥35",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "63￥831",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥31￥35",
+          "type": "前缀掩码(2位)",
+          "maskCount": 2
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "131835",
+          "isCorrect": false,
+          "maskTemplate": "￥31835",
+          "templateName": "SndCand2-M2",
+          "overallScore": 0.031187576987001267
+        },
+        {
+          "rank": 2,
+          "sequence": "631231",
+          "isCorrect": false,
+          "maskTemplate": "631￥31",
+          "templateName": "SndCand1-M2",
+          "overallScore": 0.018026806740754853
+        },
+        {
+          "rank": 3,
+          "sequence": "931235",
+          "isCorrect": false,
+          "maskTemplate": "931￥35",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.0006407434123827244
+        },
+        {
+          "rank": 4,
+          "sequence": "631235",
+          "isCorrect": false,
+          "maskTemplate": "631￥35",
+          "templateName": "SndCand1-M6",
+          "overallScore": -0.00743434540695348
+        },
+        {
+          "rank": 5,
+          "sequence": "930835",
+          "isCorrect": false,
+          "maskTemplate": "93￥835",
+          "templateName": "SndCand2-M6",
+          "overallScore": -0.011880307925785316
+        },
+        {
+          "rank": 6,
+          "sequence": "631838",
+          "isCorrect": false,
+          "maskTemplate": "63183￥",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.030595086416100772
+        },
+        {
+          "rank": 7,
+          "sequence": "630831",
+          "isCorrect": false,
+          "maskTemplate": "63￥831",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.03656936881988958
+        },
+        {
+          "rank": 8,
+          "sequence": "131831",
+          "isCorrect": false,
+          "maskTemplate": "￥31831",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.042803687354096204
+        },
+        {
+          "rank": 9,
+          "sequence": "631031",
+          "isCorrect": false,
+          "maskTemplate": "631￥31",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.055425025257945154
+        },
+        {
+          "rank": 10,
+          "sequence": "631811",
+          "isCorrect": false,
+          "maskTemplate": "6318￥1",
+          "templateName": "SndCand1-M3",
+          "overallScore": -0.06202176921478868
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0,
+        "advanced": 0.8333333333333334
+      }
+    },
+    {
+      "filename": "75310.wav",
+      "expected": "75310",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "75119",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "65819",
+          "confidence": 0.7297678601565305,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "65829",
+          "confidence": 0.6903370888850389,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "75819",
+          "confidence": 0.6772764405537437,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "65319",
+          "confidence": 0.6593947584251945,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "75829",
+          "confidence": 0.6406818823755904,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "65919",
+          "confidence": 0.6324835310582859,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "61819",
+          "confidence": 0.6255276350068385,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "65329",
+          "confidence": 0.6237663821748245,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "85819",
+          "confidence": 0.6206910971535506,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "￥5819",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥5829",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "75￥19",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥5119",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "65￥19",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "65￥29",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "6￥819",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "6￥829",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "658￥9",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "7￥119",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "6581￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "751￥9",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "6582￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥￥19",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "7511￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥5319",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥31￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "75019",
+          "isCorrect": false,
+          "maskTemplate": "75￥19",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.012325280778433437
+        },
+        {
+          "rank": 2,
+          "sequence": "75119",
+          "isCorrect": false,
+          "maskTemplate": "75￥19",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.006786867916013101
+        },
+        {
+          "rank": 3,
+          "sequence": "85119",
+          "isCorrect": false,
+          "maskTemplate": "￥5119",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.024776437778641122
+        },
+        {
+          "rank": 4,
+          "sequence": "25819",
+          "isCorrect": false,
+          "maskTemplate": "￥5819",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.07461186349548903
+        },
+        {
+          "rank": 5,
+          "sequence": "75129",
+          "isCorrect": false,
+          "maskTemplate": "751￥9",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.07965161176465294
+        },
+        {
+          "rank": 6,
+          "sequence": "25829",
+          "isCorrect": false,
+          "maskTemplate": "￥5829",
+          "templateName": "SndCand3-M1",
+          "overallScore": -0.08187327571140282
+        },
+        {
+          "rank": 7,
+          "sequence": "85829",
+          "isCorrect": false,
+          "maskTemplate": "￥5829",
+          "templateName": "SndCand3-M1",
+          "overallScore": -0.09750907382580126
+        },
+        {
+          "rank": 8,
+          "sequence": "85819",
+          "isCorrect": false,
+          "maskTemplate": "￥5819",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.13122425606575525
+        },
+        {
+          "rank": 9,
+          "sequence": "75319",
+          "isCorrect": false,
+          "maskTemplate": "￥5319",
+          "templateName": "SndCand1-M6",
+          "overallScore": -0.1373195563014718
+        },
+        {
+          "rank": 10,
+          "sequence": "15819",
+          "isCorrect": false,
+          "maskTemplate": "￥5819",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.14224889072027774
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6,
+        "pureSeq2seq": 0.2,
+        "advanced": 0.8
+      }
+    },
+    {
+      "filename": "89757.wav",
+      "expected": "89757",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "88656",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "88641",
+          "confidence": 0.7758564261374156,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "85641",
+          "confidence": 0.7725321998067463,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "88651",
+          "confidence": 0.7496657371259383,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "85651",
+          "confidence": 0.7464537271475441,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "89641",
+          "confidence": 0.7198584388250535,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "88646",
+          "confidence": 0.7031831700683044,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "88644",
+          "confidence": 0.7014937957052144,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "85646",
+          "confidence": 0.7001703188106795,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "85644",
+          "confidence": 0.6984881827233206,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "8￥656",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "8865￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥8656",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "886￥6",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "88￥56",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥￥65￥",
+          "type": "前缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "886￥1",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "8864￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "8￥641",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "8564￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "856￥1",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥8641",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "88￥41",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥5641",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "85￥41",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "58656",
+          "isCorrect": false,
+          "maskTemplate": "￥8656",
+          "templateName": "SndCand1-M3",
+          "overallScore": 0.03936449712481366
+        },
+        {
+          "rank": 2,
+          "sequence": "88666",
+          "isCorrect": false,
+          "maskTemplate": "886￥6",
+          "templateName": "SndCand1-M4",
+          "overallScore": 0.0187293509333403
+        },
+        {
+          "rank": 3,
+          "sequence": "88656",
+          "isCorrect": false,
+          "maskTemplate": "￥8656",
+          "templateName": "SndCand1-M3",
+          "overallScore": -0.032158639381572755
+        },
+        {
+          "rank": 4,
+          "sequence": "88686",
+          "isCorrect": false,
+          "maskTemplate": "886￥6",
+          "templateName": "SndCand1-M4",
+          "overallScore": -0.04493207123123591
+        },
+        {
+          "rank": 5,
+          "sequence": "84656",
+          "isCorrect": false,
+          "maskTemplate": "8￥656",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.0919061806838144
+        },
+        {
+          "rank": 6,
+          "sequence": "88856",
+          "isCorrect": false,
+          "maskTemplate": "88￥56",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.10100865434128059
+        },
+        {
+          "rank": 7,
+          "sequence": "88756",
+          "isCorrect": false,
+          "maskTemplate": "88￥56",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.1512930649078773
+        },
+        {
+          "rank": 8,
+          "sequence": "88956",
+          "isCorrect": false,
+          "maskTemplate": "88￥56",
+          "templateName": "SndCand1-M5",
+          "overallScore": -0.16647765410811033
+        },
+        {
+          "rank": 9,
+          "sequence": "85656",
+          "isCorrect": false,
+          "maskTemplate": "8￥656",
+          "templateName": "SndCand1-M1",
+          "overallScore": -0.16855945253222326
+        },
+        {
+          "rank": 10,
+          "sequence": "886548",
+          "isCorrect": false,
+          "maskTemplate": "8865￥",
+          "templateName": "SndCand1-M2",
+          "overallScore": -0.18282875531283319
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.4,
+        "pureSeq2seq": 0,
+        "advanced": 0.6
+      }
+    },
+    {
+      "filename": "951874.wav",
+      "expected": "951874",
+      "soundModelResults": [
+        {
+          "rank": 1,
+          "sequence": "951810",
+          "confidence": 1,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 2,
+          "sequence": "851810",
+          "confidence": 0.8030774252001416,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 3,
+          "sequence": "851870",
+          "confidence": 0.7352591802833635,
+          "isCorrect": false,
+          "isUsedForMask": true
+        },
+        {
+          "rank": 4,
+          "sequence": "851880",
+          "confidence": 0.7334035693860352,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 5,
+          "sequence": "851814",
+          "confidence": 0.7170139543467552,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 6,
+          "sequence": "861810",
+          "confidence": 0.7126191077771349,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 7,
+          "sequence": "951870",
+          "confidence": 0.6753552150020498,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 8,
+          "sequence": "951880",
+          "confidence": 0.6736507867811844,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 9,
+          "sequence": "951814",
+          "confidence": 0.6585964871743601,
+          "isCorrect": false,
+          "isUsedForMask": false
+        },
+        {
+          "rank": 10,
+          "sequence": "851874",
+          "confidence": 0.6564635933992823,
+          "isCorrect": false,
+          "isUsedForMask": false
+        }
+      ],
+      "maskTemplates": [
+        {
+          "template": "85187￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "8518￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "8￥1870",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "85181￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥51870",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "85￥870",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "851￥70",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "8￥1810",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "9518￥0",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "￥51810",
+          "type": "前缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "85￥810",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "851￥10",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        },
+        {
+          "template": "95181￥",
+          "type": "后缀掩码(1位)",
+          "maskCount": 1
+        },
+        {
+          "template": "9￥1810",
+          "type": "单位掩码(位置2)",
+          "maskCount": 1
+        },
+        {
+          "template": "8￥18￥￥",
+          "type": "后缀掩码(3位)",
+          "maskCount": 3
+        },
+        {
+          "template": "8518￥4",
+          "type": "单位掩码(位置5)",
+          "maskCount": 1
+        },
+        {
+          "template": "95￥810",
+          "type": "单位掩码(位置3)",
+          "maskCount": 1
+        },
+        {
+          "template": "951￥10",
+          "type": "单位掩码(位置4)",
+          "maskCount": 1
+        }
+      ],
+      "finalResults": [
+        {
+          "rank": 1,
+          "sequence": "850810",
+          "isCorrect": false,
+          "maskTemplate": "85￥810",
+          "templateName": "SndCand2-M6",
+          "overallScore": 0.15469978243898808
+        },
+        {
+          "rank": 2,
+          "sequence": "950810",
+          "isCorrect": false,
+          "maskTemplate": "95￥810",
+          "templateName": "SndCand1-M6",
+          "overallScore": 0.09094048716566702
+        },
+        {
+          "rank": 3,
+          "sequence": "951800",
+          "isCorrect": false,
+          "maskTemplate": "9518￥0",
+          "templateName": "SndCand1-M1",
+          "overallScore": 0.0029278015788186534
+        },
+        {
+          "rank": 4,
+          "sequence": "851010",
+          "isCorrect": false,
+          "maskTemplate": "851￥10",
+          "templateName": "SndCand2-M7",
+          "overallScore": -0.016734265540260543
+        },
+        {
+          "rank": 5,
+          "sequence": "850870",
+          "isCorrect": false,
+          "maskTemplate": "85￥870",
+          "templateName": "SndCand3-M5",
+          "overallScore": -0.01710107279261841
+        },
+        {
+          "rank": 6,
+          "sequence": "951010",
+          "isCorrect": false,
+          "maskTemplate": "951￥10",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.027525333322927448
+        },
+        {
+          "rank": 7,
+          "sequence": "951210",
+          "isCorrect": false,
+          "maskTemplate": "951￥10",
+          "templateName": "SndCand1-M7",
+          "overallScore": -0.03942383583722506
+        },
+        {
+          "rank": 8,
+          "sequence": "851800",
+          "isCorrect": false,
+          "maskTemplate": "8518￥0",
+          "templateName": "SndCand2-M1",
+          "overallScore": -0.040853587207385106
+        },
+        {
+          "rank": 9,
+          "sequence": "851210",
+          "isCorrect": false,
+          "maskTemplate": "851￥10",
+          "templateName": "SndCand2-M7",
+          "overallScore": -0.04392317197838862
+        },
+        {
+          "rank": 10,
+          "sequence": "851870",
+          "isCorrect": false,
+          "maskTemplate": "￥51870",
+          "templateName": "SndCand3-M4",
+          "overallScore": -0.0499273601510578
+        }
+      ],
+      "accuracyStats": {
+        "soundModel": 0.6666666666666666,
+        "pureSeq2seq": 0,
+        "advanced": 0.8333333333333334
+      }
+    }
+  ],
+  "logs": [
+    {
+      "time": "[20:02:01]",
+      "message": "[20:02:01] 开始初始化高级预测环境..."
+    },
+    {
+      "time": "[20:02:02]",
+      "message": "[20:02:01] 使用自定义模型目录: lenovo_models"
+    },
+    {
+      "time": "[20:02:02]",
+      "message": "[20:02:02] 高级预测系统初始化完成"
+    },
+    {
+      "time": "[20:02:02]",
+      "message": "[20:02:02] 找到 20 个测试文件"
+    },
+    {
+      "time": "[20:02:02]",
+      "message": "[20:02:02] \n[1/20] 处理文件: 023023.wav"
+    },
+    {
+      "time": "[20:02:02]",
+      "message": "[20:02:02]   从文件名提取的预期序列: '023023'"
+    },
+    {
+      "time": "[20:02:13]",
+      "message": "[20:02:13]   声音模型: '023021' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:02:13]",
+      "message": "[20:02:13]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[20:02:13]",
+      "message": "[20:02:13]   高级模型: '023023' (位置:6, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:02:13]",
+      "message": "[20:02:13] \n[2/20] 处理文件: 050876.wav"
+    },
+    {
+      "time": "[20:02:13]",
+      "message": "[20:02:13]   从文件名提取的预期序列: '050876'"
+    },
+    {
+      "time": "[20:02:24]",
+      "message": "[20:02:24]   声音模型: '055870' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:02:24]",
+      "message": "[20:02:24]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:02:24]",
+      "message": "[20:02:24]   高级模型: '050870' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:02:24]",
+      "message": "[20:02:24] \n[3/20] 处理文件: 102030.wav"
+    },
+    {
+      "time": "[20:02:24]",
+      "message": "[20:02:24]   从文件名提取的预期序列: '102030'"
+    },
+    {
+      "time": "[20:02:36]",
+      "message": "[20:02:36]   声音模型: '151030' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:02:36]",
+      "message": "[20:02:36]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:02:36]",
+      "message": "[20:02:36]   高级模型: '102030' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:02:36]",
+      "message": "[20:02:36] \n[4/20] 处理文件: 112233.wav"
+    },
+    {
+      "time": "[20:02:36]",
+      "message": "[20:02:36]   从文件名提取的预期序列: '112233'"
+    },
+    {
+      "time": "[20:02:48]",
+      "message": "[20:02:48]   声音模型: '112233' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:02:48]",
+      "message": "[20:02:48]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:02:48]",
+      "message": "[20:02:48]   高级模型: '112233' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:02:48]",
+      "message": "[20:02:48] \n[5/20] 处理文件: 114514.wav"
+    },
+    {
+      "time": "[20:02:48]",
+      "message": "[20:02:48]   从文件名提取的预期序列: '114514'"
+    },
+    {
+      "time": "[20:03:00]",
+      "message": "[20:03:00]   声音模型: '114514' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:03:00]",
+      "message": "[20:03:00]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:03:00]",
+      "message": "[20:03:00]   高级模型: '114514' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:03:00]",
+      "message": "[20:03:00] \n[6/20] 处理文件: 123789.wav"
+    },
+    {
+      "time": "[20:03:00]",
+      "message": "[20:03:00]   从文件名提取的预期序列: '123789'"
+    },
+    {
+      "time": "[20:03:12]",
+      "message": "[20:03:12]   声音模型: '113689' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:03:12]",
+      "message": "[20:03:12]   纯Seq2Seq: '123456' (准确率:50.00%)"
+    },
+    {
+      "time": "[20:03:12]",
+      "message": "[20:03:12]   高级模型: '123789' (位置:3, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:03:12]",
+      "message": "[20:03:12] \n[7/20] 处理文件: 147159.wav"
+    },
+    {
+      "time": "[20:03:12]",
+      "message": "[20:03:12]   从文件名提取的预期序列: '147159'"
+    },
+    {
+      "time": "[20:03:24]",
+      "message": "[20:03:24]   声音模型: '146118' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[20:03:24]",
+      "message": "[20:03:24]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[20:03:24]",
+      "message": "[20:03:24]   高级模型: '147158' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:03:24]",
+      "message": "[20:03:24] \n[8/20] 处理文件: 147258.wav"
+    },
+    {
+      "time": "[20:03:24]",
+      "message": "[20:03:24]   从文件名提取的预期序列: '147258'"
+    },
+    {
+      "time": "[20:03:36]",
+      "message": "[20:03:35]   声音模型: '148158' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:03:36]",
+      "message": "[20:03:35]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[20:03:36]",
+      "message": "[20:03:35]   高级模型: '147158' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:03:36]",
+      "message": "[20:03:35] \n[9/20] 处理文件: 147369.wav"
+    },
+    {
+      "time": "[20:03:36]",
+      "message": "[20:03:35]   从文件名提取的预期序列: '147369'"
+    },
+    {
+      "time": "[20:03:46]",
+      "message": "[20:03:46]   声音模型: '117168' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[20:03:46]",
+      "message": "[20:03:46]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:03:46]",
+      "message": "[20:03:46]   高级模型: '147368' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:03:46]",
+      "message": "[20:03:46] \n[10/20] 处理文件: 147852.wav"
+    },
+    {
+      "time": "[20:03:46]",
+      "message": "[20:03:46]   从文件名提取的预期序列: '147852'"
+    },
+    {
+      "time": "[20:03:58]",
+      "message": "[20:03:58]   声音模型: '147851' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:03:58]",
+      "message": "[20:03:58]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[20:03:58]",
+      "message": "[20:03:58]   高级模型: '147852' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:03:58]",
+      "message": "[20:03:58] \n[11/20] 处理文件: 156156.wav"
+    },
+    {
+      "time": "[20:03:58]",
+      "message": "[20:03:58]   从文件名提取的预期序列: '156156'"
+    },
+    {
+      "time": "[20:04:09]",
+      "message": "[20:04:09]   声音模型: '116116' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:04:09]",
+      "message": "[20:04:09]   纯Seq2Seq: '123456' (准确率:50.00%)"
+    },
+    {
+      "time": "[20:04:09]",
+      "message": "[20:04:09]   高级模型: '156156' (位置:44, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:04:09]",
+      "message": "[20:04:09] \n[12/20] 处理文件: 198310.wav"
+    },
+    {
+      "time": "[20:04:09]",
+      "message": "[20:04:09]   从文件名提取的预期序列: '198310'"
+    },
+    {
+      "time": "[20:04:20]",
+      "message": "[20:04:20]   声音模型: '198118' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:04:20]",
+      "message": "[20:04:20]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:04:20]",
+      "message": "[20:04:20]   高级模型: '198410' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:04:20]",
+      "message": "[20:04:20] \n[13/20] 处理文件: 321123.wav"
+    },
+    {
+      "time": "[20:04:20]",
+      "message": "[20:04:20]   从文件名提取的预期序列: '321123'"
+    },
+    {
+      "time": "[20:04:33]",
+      "message": "[20:04:32]   声音模型: '321125' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:04:33]",
+      "message": "[20:04:32]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:04:33]",
+      "message": "[20:04:32]   高级模型: '321123' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:04:33]",
+      "message": "[20:04:32] \n[14/20] 处理文件: 405060.wav"
+    },
+    {
+      "time": "[20:04:33]",
+      "message": "[20:04:32]   从文件名提取的预期序列: '405060'"
+    },
+    {
+      "time": "[20:04:45]",
+      "message": "[20:04:44]   声音模型: '405602' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[20:04:45]",
+      "message": "[20:04:44]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[20:04:45]",
+      "message": "[20:04:44]   高级模型: '405600' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:04:45]",
+      "message": "[20:04:44] \n[15/20] 处理文件: 521000.wav"
+    },
+    {
+      "time": "[20:04:45]",
+      "message": "[20:04:44]   从文件名提取的预期序列: '521000'"
+    },
+    {
+      "time": "[20:04:56]",
+      "message": "[20:04:56]   声音模型: '521000' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:04:56]",
+      "message": "[20:04:56]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:04:56]",
+      "message": "[20:04:56]   高级模型: '521000' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[20:04:56]",
+      "message": "[20:04:56] \n[16/20] 处理文件: 666666.wav"
+    },
+    {
+      "time": "[20:04:56]",
+      "message": "[20:04:56]   从文件名提取的预期序列: '666666'"
+    },
+    {
+      "time": "[20:05:09]",
+      "message": "[20:05:08]   声音模型: '666461' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:05:09]",
+      "message": "[20:05:08]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[20:05:09]",
+      "message": "[20:05:08]   高级模型: '666466' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:05:09]",
+      "message": "[20:05:08] \n[17/20] 处理文件: 731731.wav"
+    },
+    {
+      "time": "[20:05:09]",
+      "message": "[20:05:08]   从文件名提取的预期序列: '731731'"
+    },
+    {
+      "time": "[20:05:21]",
+      "message": "[20:05:21]   声音模型: '631831' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:05:21]",
+      "message": "[20:05:21]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[20:05:21]",
+      "message": "[20:05:21]   高级模型: '731831' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:05:21]",
+      "message": "[20:05:21] \n[18/20] 处理文件: 75310.wav"
+    },
+    {
+      "time": "[20:05:21]",
+      "message": "[20:05:21]   从文件名提取的预期序列: '75310'"
+    },
+    {
+      "time": "[20:05:40]",
+      "message": "[20:05:40]   声音模型: '75119' (位置:-1, 准确率:60.00%)"
+    },
+    {
+      "time": "[20:05:40]",
+      "message": "[20:05:40]   纯Seq2Seq: '123456' (准确率:20.00%)"
+    },
+    {
+      "time": "[20:05:40]",
+      "message": "[20:05:40]   高级模型: '75319' (位置:-1, 准确率:80.00%)"
+    },
+    {
+      "time": "[20:05:40]",
+      "message": "[20:05:40] \n[19/20] 处理文件: 89757.wav"
+    },
+    {
+      "time": "[20:05:40]",
+      "message": "[20:05:40]   从文件名提取的预期序列: '89757'"
+    },
+    {
+      "time": "[20:06:03]",
+      "message": "[20:06:02]   声音模型: '88656' (位置:-1, 准确率:40.00%)"
+    },
+    {
+      "time": "[20:06:03]",
+      "message": "[20:06:02]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[20:06:03]",
+      "message": "[20:06:02]   高级模型: '88756' (位置:-1, 准确率:60.00%)"
+    },
+    {
+      "time": "[20:06:03]",
+      "message": "[20:06:02] \n[20/20] 处理文件: 951874.wav"
+    },
+    {
+      "time": "[20:06:03]",
+      "message": "[20:06:02]   从文件名提取的预期序列: '951874'"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14]   声音模型: '951810' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14]   高级模型: '951870' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] \n====== 目录预测统计信息 ======"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 已处理文件总数 (有预期序列的): 20"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 总预期字符数: 118"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] \n准确率统计:"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 声音模型总体字符准确率: 70.34%"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 纯Seq2Seq总体字符准确率: 20.34%"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 高级模型总体字符准确率: 88.98%"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 声音模型命中率: 3/20 (15.00%), 平均排名: 1.0"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 掩码模型命中率: 9/20 (45.00%), 平均排名: 6.6"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 高级模型相较于声音模型的字符准确率提升: 26.51%"
+    },
+    {
+      "time": "[20:06:14]",
+      "message": "[20:06:14] 所有文件处理完成"
+    },
+    {
+      "time": "[20:06:15]",
+      "message": "分析完成！共处理 20 个文件"
+    },
+    {
+      "time": "[19:51:39]",
+      "message": "[19:51:39] 开始初始化高级预测环境..."
+    },
+    {
+      "time": "[19:51:39]",
+      "message": "[19:51:39] 使用自定义模型目录: hp_models"
+    },
+    {
+      "time": "[19:51:40]",
+      "message": "[19:51:40] 高级预测系统初始化完成"
+    },
+    {
+      "time": "[19:51:40]",
+      "message": "[19:51:40] 找到 20 个测试文件"
+    },
+    {
+      "time": "[19:51:40]",
+      "message": "[19:51:40] \n[1/20] 处理文件: 115599.wav"
+    },
+    {
+      "time": "[19:51:40]",
+      "message": "[19:51:40]   从文件名提取的预期序列: '115599'"
+    },
+    {
+      "time": "[19:52:00]",
+      "message": "[19:52:00]   声音模型: '115519' (位置:5, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:52:01]",
+      "message": "[19:52:00]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:52:01]",
+      "message": "[19:52:00]   高级模型: '115599' (位置:3, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:01]",
+      "message": "[19:52:00] \n[2/20] 处理文件: 118118.wav"
+    },
+    {
+      "time": "[19:52:01]",
+      "message": "[19:52:00]   从文件名提取的预期序列: '118118'"
+    },
+    {
+      "time": "[19:52:13]",
+      "message": "[19:52:13]   声音模型: '118118' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:13]",
+      "message": "[19:52:13]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:52:13]",
+      "message": "[19:52:13]   高级模型: '118118' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:13]",
+      "message": "[19:52:13] \n[3/20] 处理文件: 130130.wav"
+    },
+    {
+      "time": "[19:52:13]",
+      "message": "[19:52:13]   从文件名提取的预期序列: '130130'"
+    },
+    {
+      "time": "[19:52:26]",
+      "message": "[19:52:25]   声音模型: '130139' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:52:26]",
+      "message": "[19:52:25]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:52:26]",
+      "message": "[19:52:25]   高级模型: '130130' (位置:2, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:26]",
+      "message": "[19:52:25] \n[4/20] 处理文件: 131400.wav"
+    },
+    {
+      "time": "[19:52:26]",
+      "message": "[19:52:25]   从文件名提取的预期序列: '131400'"
+    },
+    {
+      "time": "[19:52:39]",
+      "message": "[19:52:39]   声音模型: '131400' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:39]",
+      "message": "[19:52:39]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:52:39]",
+      "message": "[19:52:39]   高级模型: '131400' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:39]",
+      "message": "[19:52:39] \n[5/20] 处理文件: 131415.wav"
+    },
+    {
+      "time": "[19:52:39]",
+      "message": "[19:52:39]   从文件名提取的预期序列: '131415'"
+    },
+    {
+      "time": "[19:52:54]",
+      "message": "[19:52:54]   声音模型: '131415' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:54]",
+      "message": "[19:52:54]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:52:54]",
+      "message": "[19:52:54]   高级模型: '131415' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:52:54]",
+      "message": "[19:52:54] \n[6/20] 处理文件: 132435.wav"
+    },
+    {
+      "time": "[19:52:54]",
+      "message": "[19:52:54]   从文件名提取的预期序列: '132435'"
+    },
+    {
+      "time": "[19:53:08]",
+      "message": "[19:53:08]   声音模型: '132435' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:08]",
+      "message": "[19:53:08]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:53:08]",
+      "message": "[19:53:08]   高级模型: '132435' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:08]",
+      "message": "[19:53:08] \n[7/20] 处理文件: 141421.wav"
+    },
+    {
+      "time": "[19:53:08]",
+      "message": "[19:53:08]   从文件名提取的预期序列: '141421'"
+    },
+    {
+      "time": "[19:53:21]",
+      "message": "[19:53:21]   声音模型: '141421' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:21]",
+      "message": "[19:53:21]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:53:21]",
+      "message": "[19:53:21]   高级模型: '141421' (位置:2, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:21]",
+      "message": "[19:53:21] \n[8/20] 处理文件: 142536.wav"
+    },
+    {
+      "time": "[19:53:21]",
+      "message": "[19:53:21]   从文件名提取的预期序列: '142536'"
+    },
+    {
+      "time": "[19:53:35]",
+      "message": "[19:53:35]   声音模型: '142536' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:35]",
+      "message": "[19:53:35]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:53:35]",
+      "message": "[19:53:35]   高级模型: '142536' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:35]",
+      "message": "[19:53:35] \n[9/20] 处理文件: 142857.wav"
+    },
+    {
+      "time": "[19:53:35]",
+      "message": "[19:53:35]   从文件名提取的预期序列: '142857'"
+    },
+    {
+      "time": "[19:53:46]",
+      "message": "[19:53:46]   声音模型: '142851' (位置:4, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:53:46]",
+      "message": "[19:53:46]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:53:46]",
+      "message": "[19:53:46]   高级模型: '142857' (位置:12, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:46]",
+      "message": "[19:53:46] \n[10/20] 处理文件: 147147.wav"
+    },
+    {
+      "time": "[19:53:46]",
+      "message": "[19:53:46]   从文件名提取的预期序列: '147147'"
+    },
+    {
+      "time": "[19:53:58]",
+      "message": "[19:53:57]   声音模型: '141147' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:53:58]",
+      "message": "[19:53:57]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:53:58]",
+      "message": "[19:53:57]   高级模型: '147147' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:53:58]",
+      "message": "[19:53:57] \n[11/20] 处理文件: 147852.wav"
+    },
+    {
+      "time": "[19:53:58]",
+      "message": "[19:53:57]   从文件名提取的预期序列: '147852'"
+    },
+    {
+      "time": "[19:54:09]",
+      "message": "[19:54:09]   声音模型: '141852' (位置:7, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:54:09]",
+      "message": "[19:54:09]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:54:09]",
+      "message": "[19:54:09]   高级模型: '147852' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:54:09]",
+      "message": "[19:54:09] \n[12/20] 处理文件: 184816.wav"
+    },
+    {
+      "time": "[19:54:09]",
+      "message": "[19:54:09]   从文件名提取的预期序列: '184816'"
+    },
+    {
+      "time": "[19:54:22]",
+      "message": "[19:54:22]   声音模型: '184816' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:54:22]",
+      "message": "[19:54:22]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:54:22]",
+      "message": "[19:54:22]   高级模型: '184816' (位置:5, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:54:22]",
+      "message": "[19:54:22] \n[13/20] 处理文件: 198400.wav"
+    },
+    {
+      "time": "[19:54:22]",
+      "message": "[19:54:22]   从文件名提取的预期序列: '198400'"
+    },
+    {
+      "time": "[19:54:33]",
+      "message": "[19:54:33]   声音模型: '198311' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[19:54:33]",
+      "message": "[19:54:33]   纯Seq2Seq: '123456' (准确率:33.33%)"
+    },
+    {
+      "time": "[19:54:33]",
+      "message": "[19:54:33]   高级模型: '198650' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[19:54:33]",
+      "message": "[19:54:33] \n[14/20] 处理文件: 198510.wav"
+    },
+    {
+      "time": "[19:54:33]",
+      "message": "[19:54:33]   从文件名提取的预期序列: '198510'"
+    },
+    {
+      "time": "[19:54:46]",
+      "message": "[19:54:46]   声音模型: '198110' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:54:46]",
+      "message": "[19:54:46]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:54:46]",
+      "message": "[19:54:46]   高级模型: '198510' (位置:16, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:54:46]",
+      "message": "[19:54:46] \n[15/20] 处理文件: 198617.wav"
+    },
+    {
+      "time": "[19:54:46]",
+      "message": "[19:54:46]   从文件名提取的预期序列: '198617'"
+    },
+    {
+      "time": "[19:54:59]",
+      "message": "[19:54:59]   声音模型: '198611' (位置:5, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:54:59]",
+      "message": "[19:54:59]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:54:59]",
+      "message": "[19:54:59]   高级模型: '198617' (位置:19, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:54:59]",
+      "message": "[19:54:59] \n[16/20] 处理文件: 201201.wav"
+    },
+    {
+      "time": "[19:54:59]",
+      "message": "[19:54:59]   从文件名提取的预期序列: '201201'"
+    },
+    {
+      "time": "[19:55:10]",
+      "message": "[19:55:10]   声音模型: '131291' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[19:55:10]",
+      "message": "[19:55:10]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[19:55:10]",
+      "message": "[19:55:10]   高级模型: '001201' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:55:10]",
+      "message": "[19:55:10] \n[17/20] 处理文件: 225588.wav"
+    },
+    {
+      "time": "[19:55:10]",
+      "message": "[19:55:10]   从文件名提取的预期序列: '225588'"
+    },
+    {
+      "time": "[19:55:22]",
+      "message": "[19:55:21]   声音模型: '125588' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:55:22]",
+      "message": "[19:55:21]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:55:22]",
+      "message": "[19:55:21]   高级模型: '225588' (位置:1, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:55:22]",
+      "message": "[19:55:21] \n[18/20] 处理文件: 242424.wav"
+    },
+    {
+      "time": "[19:55:22]",
+      "message": "[19:55:21]   从文件名提取的预期序列: '242424'"
+    },
+    {
+      "time": "[19:55:36]",
+      "message": "[19:55:35]   声音模型: '251424' (位置:3, 准确率:66.67%)"
+    },
+    {
+      "time": "[19:55:36]",
+      "message": "[19:55:35]   纯Seq2Seq: '123456' (准确率:16.67%)"
+    },
+    {
+      "time": "[19:55:36]",
+      "message": "[19:55:35]   高级模型: '242424' (位置:5, 准确率:100.00%)"
+    },
+    {
+      "time": "[19:55:36]",
+      "message": "[19:55:35] \n[19/20] 处理文件: 259695.wav"
+    },
+    {
+      "time": "[19:55:36]",
+      "message": "[19:55:35]   从文件名提取的预期序列: '259695'"
+    },
+    {
+      "time": "[19:55:48]",
+      "message": "[19:55:48]   声音模型: '259663' (位置:-1, 准确率:66.67%)"
+    },
+    {
+      "time": "[19:55:48]",
+      "message": "[19:55:48]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[19:55:48]",
+      "message": "[19:55:48]   高级模型: '259693' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:55:48]",
+      "message": "[19:55:48] \n[20/20] 处理文件: 600797.wav"
+    },
+    {
+      "time": "[19:55:48]",
+      "message": "[19:55:48]   从文件名提取的预期序列: '600797'"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59]   声音模型: '609891' (位置:-1, 准确率:50.00%)"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59]   纯Seq2Seq: '123456' (准确率:0.00%)"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59]   高级模型: '600799' (位置:-1, 准确率:83.33%)"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] \n====== 目录预测统计信息 ======"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 已处理文件总数 (有预期序列的): 20"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 总预期字符数: 120"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] \n准确率统计:"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 声音模型总体字符准确率: 82.50%"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 纯Seq2Seq总体字符准确率: 21.67%"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 高级模型总体字符准确率: 95.83%"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 声音模型命中率: 12/20 (60.00%), 平均排名: 2.6"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 掩码模型命中率: 16/20 (80.00%), 平均排名: 4.5"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 高级模型相较于声音模型的字符准确率提升: 16.16%"
+    },
+    {
+      "time": "[19:55:59]",
+      "message": "[19:55:59] 所有文件处理完成"
+    },
+    {
+      "time": "[19:56:00]",
+      "message": "分析完成！共处理 20 个文件"
+    }
+  ]
+}
