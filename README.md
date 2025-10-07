@@ -246,25 +246,6 @@ KeyAttacker/
 
 ---
 
-## 🛠️ 高级功能
-
-### 增强版预测系统
-
-```python
-from advanced_prediction import EnhancedPredictionSystem
-
-# 使用高级预测系统
-enhanced_system = EnhancedPredictionSystem()
-
-# 多候选预测
-candidates = enhanced_system.predict_with_candidates("audio.wav", top_k=5)
-for sequence, confidence in candidates:
-    print(f"{sequence}: {confidence:.2%}")
-
-# 置信度评估
-confidence_score = enhanced_system.get_confidence_score("audio.wav")
-print(f"预测置信度: {confidence_score:.2%}")
-```
 
 ### 自定义键盘支持
 
@@ -375,7 +356,7 @@ MIT License - Copyright (c) 2024 Fighting05
 
 <div align="center">
 
-**⭐ 如果这个项目对你有帮助，请给我们一个星标！⭐**
+**⭐ 如果这个项目对你有帮助，请给我一个星标！⭐**
 
 [🔝 回到顶部](#-keyattacker)
 
