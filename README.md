@@ -2,5 +2,5 @@
 [![Ask DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-_.svg?style=for-the-badge&color=4A6CF7&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOCwxLjVDMTIsMS41IDE1LjUsNS4gMTUuNSw4LjVDMTUuNSwxMiAxMiw5LjUgOCw5LjVDNC41LDkuNSAxLDYgMSw4LjVDMTwxMiA0LjUsMTUuNSA4LDE1LjVDOCwxMiA5LjUsMTIgOS41LDkuNUM5LjUsNiA4LDEuNSA4LDEuNVoiIGZpbGw9IiNmZmYiLz4KPC9zdmc%2BC&logoColor=ffffff)](https://deepwiki.com/Fighting05/KeyAttacker)
 
 
-🎖️ 第十八届全国大学生信息安全作品赛 · **全国二等奖**（全国第5名，前4为一等奖）
+🎖️ 第十八届全国大学生信息安全作品赛 · **全国二等奖**（小组第5名，每组前4为一等奖）
 [![Award](https://img.shields.io/badge/全国大学生信息安全竞赛-全国二等奖-FFD700?logo=award&logoColor=white)](https://www.isclab.org.cn)
